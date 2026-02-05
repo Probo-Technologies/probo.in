@@ -52,16 +52,11 @@
       width: 100%;
     }
 
-    .logo {
-      font-size: 96px;
-      font-weight: 800;
-      letter-spacing: -2px;
-      margin-bottom: 60px;
-      line-height: 1;
-    }
-
-    .logo .dot {
-      margin-right: 6px;
+    .logo-img {
+      height: 120px;
+      width: auto;
+      margin: 0 auto 60px;
+      display: block;
     }
 
     h1 {
@@ -100,7 +95,7 @@
     }
 
     @media (max-width: 640px) {
-      .logo { font-size: 64px; }
+      .logo-img { height: 80px; margin: 0 auto 40px; }
       .content { margin-top: 80px; }
       h1 { font-size: 22px; }
       p { font-size: 16px; }
@@ -115,9 +110,7 @@
   </div>
   <main>
     <section class="content">
-      <div class="logo" aria-label="Probo">
-        <span class="dot">•</span>probo.
-      </div>
+      <img class="logo-img" src="logo.avif" alt="Probo logo">
       <h1>In light of PROGA, Probo is closed for business.</h1>
       <p>Contact <a href="mailto:help@probo.in">help@probo.in</a> for any issues.</p>
     </section>
